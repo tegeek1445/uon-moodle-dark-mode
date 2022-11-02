@@ -1,0 +1,93 @@
+body, #page-my-index {
+    background: #202020;
+    color: #d1d1d1;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #f8f8f8;
+}
+
+a {
+    color: #8ba7e2;
+}
+
+.navbar {
+    background-color: #161616 !important;
+    border-bottom-color: #181818;
+}
+
+.navbar-light .navbar-nottingham .btn .fa-bars {
+    color: #f8f8f8;
+}
+
+.card {
+    background-color: #161616;
+    border-color: #181818;
+}
+
+#page-my-index #page-header div[class*="col-"]:first-of-type .card {
+    background-color: transparent;
+}
+
+.block .card-body .card-title {
+    color: #f8f8f8;
+}
+
+.block.block_myoverview .card-body .card-title {
+    color: #ffffff;
+}
+
+.block.block_myoverview .block-cards .paged-content-page-container .course-listitem .coursename,
+.block-cards a.coursename,
+.block .card-text a.coursename {
+    color: #8ba7e2
+}
+
+.block.block_myoverview .block-cards .paged-content-page-container .dashboard-card .coursename, .block.block_myoverview .block-cards .paged-content-page-container .course-summaryitem .coursename {
+    color: #0a76c9;
+}
+
+.btn-outline-secondary {
+    color: #b32b76;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.list-group-item {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.pagelayout-course #region-main .card .page-heading, .pagelayout-course #region-main .uon-content .page-heading {
+    background-color: #161616;
+}
+
+.pagelayout-course #region-main .card .course-content .ctopics .section#section-0, .pagelayout-course #region-main .uon-content .course-content .ctopics .section#section-0 {
+    background-color: #161616;
+}
+
+.pagelayout-course #region-main .card .course-content .section .content, .pagelayout-course #region-main .uon-content .course-content .section .content {
+    background-color: #161616;
+}
+
+.course-content ul.ctopics li.section .content .toggle {
+    background-color: #3b71a3 !important;
+}
+
+/* Foldout background*/
+.pagelayout-course #region-main .uon-content .course-content .ctopics .section .sectionbody,
+.pagelayout-course #region-main .uon-content .course-content .section .content h3.sectionname {
+    background-color: #161616;
+}
+
+/* Foldout text */
+.course-content ul.ctopics li.section .content .toggle .the_toggle,
+.pagelayout-course #region-main .uon-content .course-content .section .content h3.sectionname {
+    color: #ffffff !important;
+}
+
+.pagelayout-course .course-content .section h3.sectionname a {
+    color: #ffffff;
+}
+
+.pagelayout-course #region-main .uon-content .course-content .ctopics .section h3.sectionname {
+    background-color: transparent;
+}

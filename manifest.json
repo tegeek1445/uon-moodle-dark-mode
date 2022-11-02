@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Dark Moodle UoN",
+    "version": "0.1.0",
+    "description": "Overrides UoN Moodles theme with a dark theme",
+
+    "content_scripts": [{
+        "matches": ["https://moodle.nottingham.ac.uk/*"],
+        "js": ["dark.js"]
+        }],
+
+    "web_accessible_resources": [{
+            "resources": ["dark.css"],
+            "matches": ["https://moodle.nottingham.ac.uk/*"]
+        }]
+}
