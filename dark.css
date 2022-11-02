@@ -74,7 +74,8 @@ a {
     color: #9eb3e0
 }
 
-.block.block_myoverview .block-cards .paged-content-page-container .dashboard-card .coursename, .block.block_myoverview .block-cards .paged-content-page-container .course-summaryitem .coursename {
+.block.block_myoverview .block-cards .paged-content-page-container .dashboard-card .coursename,
+.block.block_myoverview .block-cards .paged-content-page-container .course-summaryitem .coursename {
     color: #0a76c9;
 }
 
@@ -91,16 +92,18 @@ a {
     background-color: #161616;
 }
 
-.pagelayout-course #region-main .card .course-content .ctopics .section#section-0, .pagelayout-course #region-main .uon-content .course-content .ctopics .section#section-0 {
+.pagelayout-course #region-main .card .course-content .ctopics .section#section-0,
+.pagelayout-course #region-main .uon-content .course-content .ctopics .section#section-0 {
     background-color: #161616;
 }
 
-.pagelayout-course #region-main .card .course-content .section .content, .pagelayout-course #region-main .uon-content .course-content .section .content {
+.pagelayout-course #region-main .card .course-content .section .content,
+.pagelayout-course #region-main .uon-content .course-content .section .content {
     background-color: #161616;
 }
 
 .course-content ul.ctopics li.section .content .toggle {
-    background-color: #3b71a3 !important;
+    background-color: #0a3568 !important;
 }
 
 /* Foldout background*/
@@ -137,4 +140,9 @@ a {
 
 .border-bottom {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Footer */
+.copyright {
+    background-color: #202020;
 }
