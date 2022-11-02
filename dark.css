@@ -11,6 +11,7 @@ a {
     color: #8ba7e2;
 }
 
+/* Nav */
 .navbar {
     background-color: #161616 !important;
     border-bottom-color: #181818;
@@ -20,7 +21,24 @@ a {
     color: #f8f8f8;
 }
 
-.card {
+.usermenu .usertext {
+    color: #f788c5;
+}
+
+/* Carousel */
+.theme-slider .carousel .carousel-inner .carousel-item .carousel-overlay-content .content-wrap {
+    background-color: #161616 !important;
+    color: #f8f8f8 !important;
+}
+
+.theme-slider .carousel .carousel-inner .carousel-item .carousel-overlay-content .content-wrap h1,
+.theme-slider .carousel .carousel-inner .carousel-item .carousel-overlay-content .content-wrap p {
+    color: #f8f8f8 !important;
+}
+
+/* Cards */
+.card,
+.uon-content {
     background-color: #161616;
     border-color: #181818;
 }
@@ -37,10 +55,23 @@ a {
     color: #ffffff;
 }
 
+/* Calendar */
+.block.block_calendar_month .minicalendar .arrow_link {
+    color: #f788c5;
+}
+
+.block .minicalendar td a {
+    color: #8ba7e2;
+}
+
+.calendar_event_course {
+    background-color: #b32d2d;
+}
+
 .block.block_myoverview .block-cards .paged-content-page-container .course-listitem .coursename,
 .block-cards a.coursename,
 .block .card-text a.coursename {
-    color: #8ba7e2
+    color: #9eb3e0
 }
 
 .block.block_myoverview .block-cards .paged-content-page-container .dashboard-card .coursename, .block.block_myoverview .block-cards .paged-content-page-container .course-summaryitem .coursename {
@@ -48,7 +79,7 @@ a {
 }
 
 .btn-outline-secondary {
-    color: #b32b76;
+    color: #f788c5;
     border-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -90,4 +121,20 @@ a {
 
 .pagelayout-course #region-main .uon-content .course-content .ctopics .section h3.sectionname {
     background-color: transparent;
+}
+
+.page-link {
+    color: #f8f8f8;
+    background-color: #161616;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.page-item.disabled .page-link {
+    color: #8d8d8d;
+    background-color: #161616;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
