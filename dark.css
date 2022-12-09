@@ -146,3 +146,15 @@ a {
 .copyright {
     background-color: #202020;
 }
+
+/* Table */
+.generaltable {
+    color: #d1d1d1;
+}
+
+.path-mod-assign td.submissionstatussubmitted,
+.path-mod-assign td.earlysubmission,
+.path-mod-assign td.submissiongraded {
+    color: #ffffff;
+    background-color: #469b47;
+}
