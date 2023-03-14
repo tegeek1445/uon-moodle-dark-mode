@@ -5,12 +5,12 @@
     "description": "Overrides UoN Moodle's theme with a dark theme",
 
     "content_scripts": [{
-        "matches": ["https://moodle.nottingham.ac.uk/*"],
+        "matches": ["https://cms.bits-hyderabad.ac.in/*"],
         "js": ["dark.js"]
         }],
 
     "web_accessible_resources": [{
             "resources": ["dark.css"],
-            "matches": ["https://moodle.nottingham.ac.uk/*"]
+            "matches": ["https://cms.bits-hyderabad.ac.in/*"]
         }]
 }
